@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/* Header */
+
 @keyframes fadeInScale {
   from {
     opacity: 0;
@@ -28,4 +30,14 @@
 
 .menu-close {
   animation: fadeOutScale 0.3s ease-in forwards;
+}
+
+/* Main Page */
+
+.txt-color {
+  color: #3a3a3a;
+}
+
+.animate-fade-in {
+  animation: fadeInScale 0.5s ease-out forwards;
 }
