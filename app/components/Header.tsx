@@ -51,7 +51,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "მთავარი გვერდი", href: "#home" },
-  { label: "ჩემს შესახებ", href: "#about" },
+  { label: "ჩემს შესახებ", href: "/about" },
   { label: "პორტფოლიო", href: "#portfolio" },
   { label: "ფასები", href: "#price" },
   { label: "კონტაქტი", href: "#contact" },

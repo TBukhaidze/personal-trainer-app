@@ -12,7 +12,7 @@ interface NavLink {
 export default function Home() {
   const links: NavLink[] = [
     { label: "პორტფოლიო", href: "#portfolio" },
-    { label: "ჩემს შესახებ", href: "#about" },
+    { label: "ჩემს შესახებ", href: "/about" },
     { label: "ფასები", href: "#price" },
   ];
 
