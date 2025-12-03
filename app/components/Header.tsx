@@ -53,7 +53,7 @@ const navItems: NavItem[] = [
   { label: "მთავარი გვერდი", href: "#home" },
   { label: "ჩემს შესახებ", href: "/about" },
   { label: "პორტფოლიო", href: "#portfolio" },
-  { label: "ფასები", href: "#price" },
+  { label: "ფასები", href: "/prices" },
   { label: "კონტაქტი", href: "#contact" },
 ];
 
