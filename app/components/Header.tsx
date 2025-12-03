@@ -53,7 +53,7 @@ const navItems: NavItem[] = [
   { label: "მთავარი გვერდი", href: "/home" },
   { label: "ჩემს შესახებ", href: "/about" },
   { label: "ფასები", href: "/prices" },
-  { label: "კონტაქტი", href: "/contact" },
+  { label: "კონტაქტი", href: "/contacts" },
 ];
 
 export default function Header() {
