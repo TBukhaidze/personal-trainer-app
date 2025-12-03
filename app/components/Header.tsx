@@ -50,11 +50,10 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "მთავარი გვერდი", href: "#home" },
+  { label: "მთავარი გვერდი", href: "/home" },
   { label: "ჩემს შესახებ", href: "/about" },
-  { label: "პორტფოლიო", href: "#portfolio" },
   { label: "ფასები", href: "/prices" },
-  { label: "კონტაქტი", href: "#contact" },
+  { label: "კონტაქტი", href: "/contact" },
 ];
 
 export default function Header() {

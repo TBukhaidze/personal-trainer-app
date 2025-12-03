@@ -13,7 +13,7 @@ export default function Home() {
   const links: NavLink[] = [
     { label: "ჩემს შესახებ", href: "/about" },
     { label: "ფასები", href: "/prices" },
-    { label: "კონტაქტი", href: "#contacts" },
+    { label: "კონტაქტი", href: "/contacts" },
   ];
 
   return (

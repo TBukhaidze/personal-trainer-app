@@ -163,7 +163,7 @@ export default function Price() {
               </ul>
 
               <Link
-                href="/#contact"
+                href="/contacts"
                 className={`
                   block w-full py-3 px-6 text-center rounded-lg font-medium transition-colors duration-300
                   ${
