@@ -119,7 +119,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <FadeIn delay={0.2}>
+        <FadeIn delay={0.1}>
           <div className="flex items-center justify-center gap-4 opacity-50">
             <span className="h-px w-12 bg-gray-300"></span>
             <span className="text-gray-400 font-serif text-sm">

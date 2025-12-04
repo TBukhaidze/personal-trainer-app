@@ -6,7 +6,7 @@ import FadeIn from "../components/FadeIn";
 export default function About() {
   return (
     <main className="max-w-5xl mx-auto py-8 animate-fade-in">
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-8">
         <Image
           src={GK}
           alt="Giorgi Khelidze - Fitness Coach"
