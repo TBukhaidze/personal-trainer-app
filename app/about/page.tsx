@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import GK from "../../public/images/gk.jpg";
+import GK from "../../public/images/gk-about-new.jpg";
 import FadeIn from "../components/FadeIn";
 
 export default function About() {
@@ -20,19 +20,31 @@ export default function About() {
       <section className="text-center mt-10">
         <FadeIn>
           <h1 className="font-semibold text-2xl md:text-4xl text-gray-800 font-serif">
-            გიორგი ხელიძე - პერსონალური მწვრთნელი
+            მე ვარ გიორგი — პერსონალური მწვრთნელი Snap Fitness-ში
           </h1>
         </FadeIn>
         <FadeIn>
           <p className="mt-4 text-base md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-serif">
-            და აქ წავა რაიმე ტექსტები თუ გინდა. მაგალითად გამოცდელიბა სწორი
-            კვების ჩაქსოვება და ასე შემდეგ
+            სპორტში გატარებულმა 14 წელმა და რეაბილიტაციის უნივერსიტეტში
+            მიღებულმა განათლებამ მომცა ის გამოცდილება, რაც დღეს საშუალებას
+            მაძლევს ადამიანს არა უბრალოდ ფორმა შევუცვალო, არამედ ჯანმრთელად და
+            სწორად მივიყვანო მიზნამდე.
             <br />
+            ჩემთვის განსაკუთრებით მნიშვნელოვანია, რომ ვარჯიშისას შერჩეული
+            პროგრამა იყოს უსაფრთხო, ეფუძნებოდეს სხეულის რეალურ შესაძლებლობებს,
+            ინდივიდუალურ საჭიროებებს და იყოს გრძელვადიან შედეგზე ორიენტირებული.
             <br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-            vel perspiciatis. Quo, voluptatem cupiditate reprehenderit itaque
-            tempora vero, quaerat hic nisi dignissimos praesentium fuga?
-            Reiciendis veritatis aliquam itaque quis eum?
+            <FadeIn>
+              <p>
+                <br />• გინდა ჯანსაღი და სწორი დაკლება? <br />• გინდა წონაში
+                მომატება მხოლოდ კუნთის მასის ხარჯზე? <br />• გინდა შედეგი,
+                რომელიც დროებითი არ იქნება?
+                <br />
+                არ აქვს მნიშვნელობა, პირველად შედიხარ დარბაზში თუ უკვე
+                გამოცდილება გაქვს — ჩვენ ამას ერთად, გააზრებულად, ტექნიკურად
+                სწორად და უსაფრთხოდ გავაკეთებთ.
+              </p>
+            </FadeIn>
           </p>
         </FadeIn>
       </section>

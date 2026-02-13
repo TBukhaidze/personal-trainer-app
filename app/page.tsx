@@ -29,7 +29,7 @@ export default function Home() {
         />
       </div>
 
-      <section className="text-center mt-10">
+      {/* <section className="text-center mt-10">
         <FadeIn>
           <h1 className="font-semibold text-2xl md:text-4xl text-gray-800 font-serif">
             გამარჯობა, მე გიორგი ვარ
@@ -44,7 +44,7 @@ export default function Home() {
             განსაკუთრებული მომენტების შენახვაა.
           </p>
         </FadeIn>
-      </section>
+      </section> */}
 
       <section className="mt-16 pb-12">
         <FadeIn>

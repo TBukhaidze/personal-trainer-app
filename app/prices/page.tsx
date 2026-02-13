@@ -17,38 +17,48 @@ interface PricingPlan {
 export default function Price() {
   const plans: PricingPlan[] = [
     {
-      title: "სავარჯიშო გეგმა",
-      price: "100₾",
-      description: "იდეალურია მათთვის, ვისაც სურს დამოუკიდებლად ვარჯიში.",
+      title: "პერსონალური ვარჯიში",
+      price: "400ლ",
+      description: "რა შედის",
       features: [
-        "ინდივიდუალური პროგრამა",
-        "ვიდეო ინსტრუქციები",
-        "პროგრესის მონიტორინგი",
-        "ერთჯერადი კონსულტაცია",
-      ],
-    },
-    {
-      title: "ვარჯიში + კვება",
-      price: "200₾",
-      description: "კომპლექსური მიდგომა საუკეთესო შედეგისთვის.",
-      recommended: true,
-      features: [
-        "ყველაფერი სავარჯიშო გეგმიდან",
-        "ინდივიდუალური კვების რაციონი",
-        "ყოველკვირეული შემოწმება (Check-in)",
-        "24/7 მხარდაჭერა",
-        "რეცეპტები და რჩევები",
+        "10 პერსონალური ვარჯიში",
+        "ვარჯიშის ინდივიდუალური პროგრამა",
+        "კვების ინდივიდუალური პროგრამა",
+        "უკუკავშირის გაზიარება და მეთვალყურეობა",
       ],
     },
     {
       title: "პერსონალური ვარჯიში",
-      price: "350₾",
-      description: "მუშაობა პირადად ჩემთან დარბაზში.",
+      price: "450₾",
+      description: "რა შედის",
+      recommended: true,
       features: [
         "12 პერსონალური ვარჯიში",
-        "კვების სრული კონტროლი",
-        "სხეულის პარამეტრების გაზომვა",
-        "მუდმივი მოტივაცია",
+        "ვარჯიშის ინდივიდუალური პროგრამა",
+        "კვების ინდივიდუალური პროგრამა",
+        "უკუკავშირის გაზიარება და მეთვალყურეობა",
+      ],
+    },
+    {
+      title: "მეგობართან ერთად პერსონალური ვარჯიში",
+      price: "700₾",
+      description: "რა შედის",
+      features: [
+        "10 პერსონალური ვარჯიში",
+        "ვარჯიშის ინდივიდუალური პროგრამა ორივესთვის",
+        "კვების ინდივიდუალური პროგრამა ორივესთვის",
+        "უკუკავშირის გაზიარება და მეთვალყურეობა",
+      ],
+    },
+    {
+      title: "მეგობართან ერთად პერსონალური ვარჯიში",
+      price: "800₾",
+      description: "რა შედის",
+      features: [
+        "12 პერსონალური ვარჯიში",
+        "ვარჯიშის ინდივიდუალური პროგრამა ორივესთვის",
+        "კვების ინდივიდუალური პროგრამა ორივესთვის",
+        "უკუკავშირის გაზიარება და მეთვალყურეობა",
       ],
     },
   ];
@@ -66,7 +76,7 @@ export default function Price() {
       </section>
 
       <section className="mb-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="relative h-64 md:h-80 overflow-hidden rounded-lg shadow-md group">
             <Image
               src={Food1}
@@ -106,12 +116,12 @@ export default function Price() {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
         {plans.map((plan, index) => (
-          <FadeIn key={plan.title} delay={0.2 * index} direction="up">
+          <FadeIn key={index} delay={0.2 * index} direction="up">
             <div
               className={`
                 relative p-8 rounded-2xl border transition-all duration-300 hover:shadow-xl
