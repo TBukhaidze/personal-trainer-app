@@ -119,7 +119,7 @@ export default function Price() {
         </div> */}
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         {plans.map((plan, index) => (
           <FadeIn key={index} delay={0.2 * index} direction="up">
             <div
