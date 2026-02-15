@@ -65,16 +65,6 @@ export default function Price() {
 
   return (
     <main className="max-w-5xl mx-auto pt-24 md:pt-28 pb-8 px-4 animate-fade-in">
-      <section className="text-center mb-12">
-        <h1 className="font-semibold text-3xl md:text-5xl text-gray-800 font-serif mb-6">
-          ინვესტიცია შენს ჯანმრთელობაში
-        </h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto font-serif">
-          აირჩიე შენზე მორგებული პაკეტი. ჩემი მიზანია დაგეხმარო შედეგის
-          მიღწევაში ისე, რომ პროცესი იყოს სასიამოვნო.
-        </p>
-      </section>
-
       <section className="mb-20">
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="relative h-64 md:h-80 overflow-hidden rounded-lg shadow-md group">
@@ -121,7 +111,7 @@ export default function Price() {
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         {plans.map((plan, index) => (
-          <FadeIn key={index} delay={0.2 * index} direction="up">
+          <FadeIn key={index} delay={0.1 * index} direction="up">
             <div
               className={`
                 relative p-8 rounded-2xl border transition-all duration-300 hover:shadow-xl
