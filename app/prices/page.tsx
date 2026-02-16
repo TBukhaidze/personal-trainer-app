@@ -27,18 +27,18 @@ export default function Price() {
         "უკუკავშირის გაზიარება და მეთვალყურეობა",
       ],
     },
-    {
-      title: "პერსონალური ვარჯიში",
-      price: "450₾",
-      description: "რა შედის",
-      recommended: true,
-      features: [
-        "12 პერსონალური ვარჯიში",
-        "ვარჯიშის ინდივიდუალური პროგრამა",
-        "კვების ინდივიდუალური პროგრამა",
-        "უკუკავშირის გაზიარება და მეთვალყურეობა",
-      ],
-    },
+//     {
+//       title: "პერსონალური ვარჯიში",
+//       price: "450₾",
+//       description: "რა შედის",
+//       recommended: true,
+//       features: [
+//         "12 პერსონალური ვარჯიში",
+//         "ვარჯიშის ინდივიდუალური პროგრამა",
+//         "კვების ინდივიდუალური პროგრამა",
+//         "უკუკავშირის გაზიარება და მეთვალყურეობა",
+//       ],
+//     },
     {
       title: "მეგობართან ერთად პერსონალური ვარჯიში",
       price: "700₾",
@@ -109,7 +109,7 @@ export default function Price() {
         </div> */}
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
         {plans.map((plan, index) => (
           <FadeIn key={index} delay={0.1 * index} direction="up">
             <div
